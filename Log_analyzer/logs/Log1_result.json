@@ -1,0 +1,6 @@
+{
+file: ./logs/Log1.txt,
+total_requests: 5,
+https_500_errors: 2,
+tavg_response_time: 204,
+}
