@@ -38,6 +38,7 @@ int main() {
         *cptr = 1;
         wait(NULL);
     }
+    munmap(m, 4096);
     fclose(f);
     return 0;
 }
